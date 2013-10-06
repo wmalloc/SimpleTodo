@@ -1,12 +1,15 @@
 package codepath.apps.simpletodo;
 
+/*
+ * Adapter: Bind data
+ */
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import org.apache.commons.io.FileUtils;
+
 import android.os.Bundle;
-import android.os.storage.*;
-import android.provider.MediaStore.Files;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
